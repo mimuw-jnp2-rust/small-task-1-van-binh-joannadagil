@@ -84,7 +84,7 @@ impl Display for Order {
         write!(
             f,
             //usunelam 'a' z 'takeaway' poniższego stringa, bo tak jest w testach
-            "chicken: {}, tofu: {}, rice: {}, takeway: {}",
+            "chicken: {}, tofu: {}, rice: {}, takeaway: {}",
             self.dish_count(Dish::ThaiChicken),
             self.dish_count(Dish::Tofu),
             self.dish_count(Dish::FriedRice),
